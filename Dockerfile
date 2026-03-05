@@ -11,4 +11,4 @@ COPY skills/ /root/.openfang/skills/
 WORKDIR /app
 EXPOSE 4200
 
-CMD ["openfang", "start", "--host", "0.0.0.0", "--port", "4200"]
+CMD ["sh", "-c", "openfang init --non-interactive && openfang start"]
