@@ -1,0 +1,52 @@
+# OpenFang Package Reference
+# Yeh file sirf reference ke liye hai
+# Actual packages Dockerfile mein add karein
+
+# ============================================
+# APT PACKAGES (sudo apt-get install -y)
+# ============================================
+
+# Video / Media
+ffmpeg              # Video processing, Clip Hand ke liye zaroori
+yt-dlp              # YouTube/video downloader
+imagemagick         # Image processing
+gifsicle            # GIF processing
+
+# Browser Automation
+chromium            # Browser Hand ke liye
+chromium-driver     # Selenium/Playwright driver
+
+# Python
+python3             # Python runtime
+python3-pip         # Package manager
+
+# Document Processing
+tesseract-ocr       # OCR - image se text nikalna
+poppler-utils       # PDF tools
+pandoc              # Document converter
+wkhtmltopdf         # HTML to PDF
+
+# General Tools
+curl                # HTTP requests
+wget                # File download
+git                 # Version control
+jq                  # JSON processor
+zip                 # ZIP files
+unzip               # Extract ZIP
+
+# ============================================
+# PYTHON PACKAGES (pip install)
+# ============================================
+
+playwright          # Browser automation (Browser Hand)
+requests            # HTTP library
+pillow              # Image processing
+yt-dlp              # YouTube downloader (Python version)
+openai              # OpenAI SDK
+anthropic           # Claude/Anthropic SDK
+pandas              # Data analysis
+numpy               # Numerical computing
+beautifulsoup4      # Web scraping
+selenium            # Browser automation
+pytesseract         # OCR Python wrapper
+pypdf2              # PDF processing
