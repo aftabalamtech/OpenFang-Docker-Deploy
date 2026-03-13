@@ -1,4 +1,4 @@
-FROM marsel7/openfang:latest
+FROM marsel7/openfang:v2
 
 USER root
 
